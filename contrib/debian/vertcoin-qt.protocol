@@ -1,0 +1,11 @@
+[Protocol]
+exec=sinecoin-qt '%u'
+protocol=sinecoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

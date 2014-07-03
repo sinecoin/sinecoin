@@ -1,0 +1,12 @@
+Building Sinecoin
+
+See doc/readme-qt.rst for instructions on building Sinecoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Sinecoin.
+
+See doc/build-*.txt for instructions on building sinecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Sinecoin.
+
+Further build information and documentation is available at
+the official Sinecoin website, http://www.sinecoin.org
