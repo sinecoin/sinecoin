@@ -1,0 +1,15 @@
+src/*.exe
+src/sinecoin
+src/sinecoind
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.sinecoin
+
+sinecoin-qt
+
+build
