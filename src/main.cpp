@@ -1339,7 +1339,7 @@ unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBl
                 if (pindexLast->nHeight+1 >= 2116) { DiffMode = 2; } // vertcoin, 100 blocks after first legacy diff adjustment
         }
         else {         
-        	if (pindexLast->nHeight+1 >= 26754) { DiffMode = 2; }  //vertcoin, 5 days after 27/01/2014 12:00 UTC
+        	if (pindexLast->nHeight+1 >= 2768) { DiffMode = 2; }  //sinecoin, July 8th 2014
         }
         
         if                (DiffMode == 1) { return GetNextWorkRequired_V1(pindexLast, pblock); } //legacy diff mode
